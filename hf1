@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>zománc</title>
+  </head>
+	<header>
+	<a id="eleje"></a>
+	<a href="#vége">Végére</a>
+	</header>
+  <body>
+    <h1>Mi is a zománc?</h1>
+	<p>
+	A zománc az üvegfélék nagy csoportjába tartozik. Az üveg fényáteresztő, víz- és saválló, éghetetlen, de törékeny. Az üveg a tér minden irányában azonos fizikai tulajdonságokat mutat, tehát izotróp, felépítése nem kristályos szerkezetű, hanem amorf. Tulajdonképpen felfogható megdermedt folyadékként is. A legfontosabb üvegalkotó a szilícium-dioxid, kiindulási anyaga a kvarchomok. Zománc-alapanyag készítésekor a színtelen, átlátszó őrölt üvegport, fondantot fém-oxidokkal színezik meg. Az így készült zománc átlátszó, színes üveghez hasonló. Ha ehhez ón-dioxidot kevernek, átlátszatlan fedőzománcot nyernek. Az alkotórészeket összeolvasztják, majd egyéb, ún. malomadalékok hozzáadása mellett porrá őrlik. A zománcot por alakban, vagy vizes szuszpenzió formájában, zománciszapként hozzák forgalomba. Kétféle zománcot lehet kapni: ipari és ötvöszománcot.
+	</p>
+	<h1>Az alap</h1>
+	<p>
+	A zománcozás alapja, vagyis a recipiens lehet acéllemez, öntöttvas, vörösréz, zománcozótombak, ezüst és ezüstötvözetek, arany és aranyötvözetek, platina, agyag, üveg, porcelán és kő. Művészi táblaképek készítésekor leggyakrabban vörösrezet alkalmaznak. A vörösrézen a zománc kifejezetten jól tapad. Magas olvadáspontja (1084 °C) miatt nagyon ellenálló, kibírja a zománc ráolvadásához szükséges magas hőfokot. A sárgaréz nem alkalmas alapnak, magas cinktartalma miatt lehűlés közben a zománc könnyen lepattogzik.
+	</p>
+	<h1>Technikája</h1>
+	<p>
+	A zománcozásnak sokféle technikája van, közös bennük, hogy a száraz vagy nedves, iszapolt zománcport valamilyen módon a hordozó felületen vékony rétegben elhelyezik, majd az egészet kemencében kiégetik. Ha nedves anyagot használnak, azt előtte kiszárítják. Az alap hátoldalára szokás előbb kontrazománcot rakni, kiégetni a deformáció elkerülése érdekében. Az alaplemezt gyakran alapzománccal látják el, erre kerül a tényleges mű. A kiégetés hőmérséklete 700–820 °C.
+	</p>
+	<h1>Fő csoportjai</h1>
+	<p>
+	A zománc alkalmazásának módja szerint két fő csoportra osztható, festő jellegű és ötvös jellegű zománcozásra. A festőzománcok közé tartozik például a sablonzománcozás, a sgraffito és a festőzománc-technika. Az ötvöszománc alcsoportjai a rekeszzománc, a beágyazott zománc és a domborművű zománc. A rekeszzománc fajtái közé tartozik a bordázott zománc, a sodronyzománc, a filigrán zománc, az erdélyi zománc és az azsúrzománc. A beágyazott zománc alfajai közé tartozik a lapos relief és a kevert zománc.
+	</p>
+	<h2>Festőzománc</h2>
+	<p>
+	Festőzománc kép készítésekor nem alkalmaznak vésést vagy rekeszeket, hanem a lealapozott lemezre úgy viszik fel ecsettel a zománciszapot, mint a festők a festéket. Ebben az esetben különösen szükség van arra, hogy a művész tudja, a zománcoknak égetés után milyen színük lesz.
+	</p>
+	<h2>Rekeszzománc</h2>
+	<p>
+	Rekeszzománc készítésekor rekeszeket töltenek meg zománccal. A rekeszeket az alaplemezre forrasztott fémcsíkok határolják. Ezek többfélék lehetnek. Ha négyszögletes keresztmetszetűek, akkor bordázott zománcról, ha csavart drótból készülnek, akkor sodronyzománcról beszélünk. Filigrán zománc esetén vékony lapított drótok, filigránhuzalok belső mezőit zománcozzák, a rajzon kívüli rész zománcmentes. Az erdélyi zománcnál a rekeszek nincsenek szorosan egymás mellett. Az azsúr-, vagy áttört zománc esetében az alaplemezt eltávolítják, a zománccal töltött rekeszek ablaküvegek módjára áteresztik a fényt, a végeredmény hasonlít az üvegfestéshez.
+	</p>
+  </body>
+	<footer>
+	<a id="vége"></a>
+	<a href="#eleje">Elejére</a>
+	</footer>
+</html>
