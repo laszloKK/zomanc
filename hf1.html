@@ -29,6 +29,44 @@
 			inline-size: 200px;
 			position: center;
 		}
+
+		.aRed:link,
+		.aRed:active {
+			background-color: red;
+			color: white;
+			padding: 14px 28px;
+			border: solid 1px red;
+			font-size: 14px;
+			width: 200;
+			text-align: center;
+			text-decoration: none;
+			display: block;
+		}
+
+		.aRed:hover,
+		.aRed:visited {
+			background-color: white;
+			color: red;
+		}
+
+		.aBlue:link,
+		.aBlue:active {
+			background-color: blue;
+			color: white;
+			padding: 4px 28px;
+			border: solid 1px blue;
+			font-size: 14px;
+			width: 200px;
+			text-align: center;
+			text-decoration: none;
+			display: block;
+		}
+
+		.aBlue:hover,
+		.aBlue:visited {
+			background-color: white;
+			color: blue;
+		}
 	</style>
 </head>
 
@@ -36,17 +74,25 @@
 	<header>
 		<img src="p1.jpg" alt="">
 		<img src="p2.jpg" alt="">
-		<nav>
-			<a id="start"></a>
-			<a href="#end">Végire</a>
-		</nav>
 	</header>
+
+	<div>
+		<a href="http://www.lorumipse.hu/" target="blank" class="aRed">Ilyet még!</a>
+		<a href="https://www.lipsum.com/" target="blank" class="aRed">Tanultál külföldiül?</a>
+	</div>
+
+	<div>
+		<a href="#end" id="start" class="aBlue">Végire</a>
+		<a href="#section1" class="aBlue">Ugrás a zegyikre</a>
+		<a href="#section2" class="aBlue">Ugrás a másikra</a>
+		<a href="#section3" class="aBlue">Ugrás harmadikra</a>
+	</div>
 
 	<div>
 		<h1 class="cm">Tránkáz, a barázs</h1>
 	</div>
 	<div>
-		<h2 class="cm">Az bizmos érségen</h2>
+		<h2 class="cm" id="section1">Az bizmos érségen</h2>
 		<p>
 			Tránkáz a barázs kárma az ehes figyező bizmos érségen tolnán 10 és 12 urgás között. Szivag madt mázkor, a
 			borza főzet szőnye kopártotása képítőn a jentet fugálta, hogy a karlakos anyalatos majisok szított görmer
@@ -56,7 +102,7 @@
 			spikrák kirotás a belég keptás alatt. Ha minden más ritázata olyan, mint a húra zatiliszté, akkor matlan. A
 			sülő reszer cupresét pizserteli fel a pohé.
 		</p>
-		<h2 class="cm">Ígyott külinek bárodta</h2>
+		<h2 class="cm" id="section2">Ígyott külinek bárodta</h2>
 		<p>
 			Hólyag a dorkiban finnyás faggyús szülészsédöt, a fermetet és a tiszta csapacska alapján nyápa talangos
 			kiraglócát s darszerű getásokat mind a katság mögött unott külinek bárodta. Ezt 1940-ben „Van fizonyosság
@@ -77,7 +123,7 @@
 
 	</div>
 	<div style="font-size: 15px;">
-		<h3 class="cn">Jövezések</h3>
+		<h3 class="cn" id="section3">Jövezések</h3>
 		<p>
 			A gyításban fátráz ziség jövezések nem vékosak áltágos taráknak. Pikaság a szabángások polás akarmájának,
 			egy hatos pona kedékbetes ketlensek kohó kedi, miként azt az alampacs vizálja. Költödés jövezés esetén, a
@@ -117,10 +163,7 @@
 		</form>
 	</div>
 	<footer>
-		<nav>
-			<a id="end"></a>
-			<a href="#start">Elejíre</a>
-		</nav>
+		<a href="#start" id="end">Elejíre</a>
 	</footer>
 </body>
 
