@@ -3,6 +3,11 @@
 <head>
 	<title>Tránkáz Barázs</title>
 	<style>
+		body {
+			background-color: white;
+			color: black
+		}
+
 		div {
 			font-family: Verdana, Geneva, Tahoma, sans-serif;
 			font-size: 18px;
@@ -53,7 +58,7 @@
 		.aBlue:active {
 			background-color: blue;
 			color: white;
-			padding: 4px 28px;
+			padding: 14px 28px;
 			border: solid 1px blue;
 			font-size: 14px;
 			width: 200px;
@@ -67,7 +72,15 @@
 			background-color: white;
 			color: blue;
 		}
+
+		.dark-mode {
+			background-color: rgb(28, 27, 27);
+			color: white
+		}
+
+		@media screen and (max-width: 360px) {}
 	</style>
+
 </head>
 
 <body>
@@ -162,9 +175,17 @@
 			<p>*kötelezően beírandó</p>
 		</form>
 	</div>
+
 	<footer>
-		<a href="#start" id="end">Elejíre</a>
+		<button onclick="functionDark">Túl világos!</button>
+		<a href="#start" id="end" class="aBlue">Elejíre</a>
 	</footer>
+	<script>
+		function functionDark() {
+			var element = document.body;
+			element.classList.toggle("dark-mode");
+		}
+	</script>
 </body>
 
 </html>
