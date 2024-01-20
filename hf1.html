@@ -35,12 +35,7 @@
 			position: center;
 		}
 
-		.aRed:link,
-		.aRed:active {
-			background-color: red;
-			color: white;
-			padding: 14px 28px;
-			border: solid 1px red;
+		.button {
 			font-size: 14px;
 			width: 200;
 			text-align: center;
@@ -48,8 +43,20 @@
 			display: block;
 		}
 
-		.aRed:hover,
-		.aRed:visited {
+		.button:visited {
+			text-decoration: none;
+			background-color: mediumaquamarine;
+			color: white
+		}
+
+		.aRed:link,
+		.aRed:active {
+			background-color: red;
+			color: white;
+			border: solid 1px red;
+		}
+
+		.aRed:hover {
 			background-color: white;
 			color: red;
 		}
@@ -58,17 +65,10 @@
 		.aBlue:active {
 			background-color: blue;
 			color: white;
-			padding: 14px 28px;
 			border: solid 1px blue;
-			font-size: 14px;
-			width: 200px;
-			text-align: center;
-			text-decoration: none;
-			display: block;
 		}
 
-		.aBlue:hover,
-		.aBlue:visited {
+		.aBlue:hover {
 			background-color: white;
 			color: blue;
 		}
@@ -90,15 +90,15 @@
 	</header>
 
 	<div>
-		<a href="http://www.lorumipse.hu/" target="blank" class="aRed">Ilyet még!</a>
-		<a href="https://www.lipsum.com/" target="blank" class="aRed">Tanultál külföldiül?</a>
+		<a href="http://www.lorumipse.hu/" target="blank" class="aRed button">Ilyet még!</a>
+		<a href="https://www.lipsum.com/" target="blank" class="aRed button">Tanultál külföldiül?</a>
 	</div>
 
 	<div>
-		<a href="#end" id="start" class="aBlue">Végire</a>
-		<a href="#section1" class="aBlue">Ugrás a zegyikre</a>
-		<a href="#section2" class="aBlue">Ugrás a másikra</a>
-		<a href="#section3" class="aBlue">Ugrás harmadikra</a>
+		<a href="#end" id="start" class="aBlue button">Végire</a>
+		<a href="#section1" class="aBlue button">Ugrás a zegyikre</a>
+		<a href="#section2" class="aBlue button">Ugrás a másikra</a>
+		<a href="#section3" class="aBlue button">Ugrás harmadikra</a>
 	</div>
 
 	<div>
@@ -160,25 +160,33 @@
 	<img src="p3.jpg" alt="">
 	<img src="p4.jpg" alt="">
 	<div>
-		<form action="laszlokinga@gmail.com">
+		<form action="/laszlokinga89@gmail.com">
 			<h2 class="cm">Tanulságul elküldeni</h2>
+
 			<label for="name">Név:*</label>
-			<input type="text" name="name" id="name">
+			<input type="text" name="name" id="name" required>
+
 			<label for="tel">Telefonszám:</label>
 			<input type="number" name="tel" id="tel">
+
 			<label for="mail">E-mail:*</label>
-			<input type="text" name="email" id="mail">
+			<input type="text" name="email" id="mail" required>
+
 			<label for="age">Életkora</label>
 			<input type="number" name="age" id="age">
+
 			<label for="dm">Üzenet:</label>
 			<input type="text" name="other" id="dm">
+
 			<p>*kötelezően beírandó</p>
+
+			<input type="submit" value="Küldd">
 		</form>
 	</div>
 
 	<footer>
-		<button onclick="functionDark">Túl világos!</button>
-		<a href="#start" id="end" class="aBlue">Elejíre</a>
+		<button onclick="functionDark" class="buttons">Túl világos!</button>
+		<a href="#start" id="end" class="aBlue button">Elejíre</a>
 	</footer>
 	<script>
 		function functionDark() {
